@@ -1,0 +1,572 @@
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("fonts/Open_Sans/static/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: "Open_Sans";
+  src: url("fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("fonts/Poppins/Poppins-Medium.ttf");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 1440px;
+  height: 5518px;
+  overflow: auto;
+  font-size: 16px;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+main {
+  max-width: 1440px;
+  height: 4770px;
+  padding-top: 100px;
+  position: relative;
+  background-color: #fff;
+}
+main .huddle-logo {
+  margin-left: 55px;
+}
+main .try-free-btn {
+  display: inline-block;
+  position: relative;
+  left: 870px;
+  top: -15px;
+  width: 135px;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open_Sans";
+  border: 2px solid hsl(321, 100%, 78%);
+  border-radius: 25px;
+  text-shadow: 0.25px 0.25px hsl(321, 100%, 78%);
+  color: hsl(321, 100%, 78%);
+  background: transparent;
+}
+main .try-free-btn:hover {
+  cursor: pointer;
+  color: hsl(321, 69%, 85%);
+  border-color: hsl(321, 69%, 85%);
+}
+.build-community-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 280px;
+  position: relative;
+  top: 230px;
+  text-align: center;
+}
+.build-community-div h1 {
+  font-weight: 700;
+  font-size: 45px;
+  color: hsl(192, 100%, 9%);
+  font-family: "Poppins-Bold";
+}
+.build-community-div p {
+  margin-left: 5px;
+  font-size: 20px;
+  color: hsl(192, 100%, 9%);
+  font-family: "Open_Sans";
+  text-shadow: 0.25px 0.25px hsl(192, 100%, 9%);
+}
+.build-community-div .get-started-btn1 {
+  width: 400px;
+  height: 80px;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "OpenSans-Bold";
+  text-transform: capitalize;
+  border-color: transparent;
+  border-radius: 40px;
+  color: hsl(207, 100%, 98%);
+  background-color: hsl(322, 100%, 66%);
+}
+.build-community-div .get-started-btn1:hover {
+  cursor: pointer;
+  background: radial-gradient(hsl(322, 100%, 66%), hsl(321, 100%, 78%));
+}
+.screen-mockups {
+  position: relative;
+  top: 400px;
+  width: 1000px;
+  margin-left: calc((1326px - 1000px) / 2);
+  margin-right: calc((1326px - 1000px) / 2);
+}
+.community-info-section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 230px;
+  position: relative;
+  top: 600px;
+}
+.community-info-section .communities-div,
+.community-info-section .messages-div {
+  width: 50%;
+  height: inherit;
+  position: absolute;
+}
+.community-info-section .communities-div {
+  padding-top: 23px;
+}
+.community-info-section .messages-div {
+  padding-top: 30px;
+  left: 663px;
+}
+.community-info-section .communities-div .icon-communities {
+  margin-left: 250px;
+}
+.community-info-section .messages-div .icon-messages {
+  width: 42px;
+  margin-left: 160px;
+}
+.community-info-section .communities-div h1,
+.community-info-section .messages-div h1 {
+  font-size: 90px;
+  font-weight: 700;
+  width: fit-content;
+  margin-top: 15px;
+  text-shadow: 0.25px 0.25px hsl(192, 100%, 9%);
+  color: hsl(192, 100%, 9%);
+  font-family: "OpenSans-Bold";
+}
+.community-info-section .communities-div h1 {
+  margin-left: 250px;
+}
+.community-info-section .messages-div h1 {
+  margin-left: 155px;
+}
+.community-info-section .communities-div p,
+.community-info-section .messages-div p {
+  font-size: 25px;
+  font-weight: 350;
+  width: fit-content;
+  margin-top: -50px;
+  text-transform: capitalize;
+  text-shadow: 0.01px 0 rgb(162, 162, 162);
+  color: rgb(162, 162, 162);
+  font-family: "Open_Sans";
+}
+.community-info-section .communities-div p {
+  margin-left: 250px;
+}
+.community-info-section .messages-div p {
+  margin-left: 195px;
+}
+.grow-together-section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 704px;
+  position: relative;
+  top: 750px;
+}
+.grow-together-section .top-section {
+  height: 165px;
+  background-image: url("images/bg-section-top-desktop-1.svg");
+}
+.grow-together-section .middle-section {
+  height: 400px;
+  position: relative;
+  background-color: hsl(207, 100%, 98%);
+}
+.grow-together-section .middle-section .left-div {
+  height: inherit;
+  width: 50%;
+  position: absolute;
+  padding-top: 90px;
+  padding-left: 110px;
+}
+.grow-together-section .middle-section .left-div h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Poppins-Bold";
+  width: fit-content;
+  text-transform: capitalize;
+  text-shadow: 0.25px 0.25px hsl(192, 100%, 9%);
+  color: hsl(192, 100%, 9%);
+}
+.grow-together-section .middle-section .left-div p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Open_Sans";
+  width: fit-content;
+  letter-spacing: -0.1px;
+  text-shadow: 0.25px 0.25px hsl(192, 100%, 9%);
+  color: hsl(192, 100%, 9%);
+}
+.grow-together-section .middle-section .right-div {
+  height: inherit;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+}
+.grow-together-section .middle-section .right-div img {
+  padding-left: 50px;
+}
+.grow-together-section .bottom-section {
+  height: 139px;
+  background-image: url("images/bg-section-bottom-desktop-1.svg");
+}
+
+.flowing-conversations-section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 340px;
+  position: relative;
+  top: 1000px;
+}
+.flowing-conversations-section .left-div {
+  width: 50%;
+  height: inherit;
+  position: absolute;
+  left: 0;
+  padding-left: 110px;
+}
+.flowing-conversations-section .right-div {
+  width: 50%;
+  height: inherit;
+  position: absolute;
+  left: 50%;
+  padding-top: 80px;
+  padding-left: 70px;
+}
+.flowing-conversations-section .right-div h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Poppins-Bold";
+  width: fit-content;
+  text-transform: capitalize;
+  text-shadow: 0.25px 0.25px hsl(192, 100%, 9%);
+  color: hsl(192, 100%, 9%);
+}
+.flowing-conversations-section .right-div p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Open_Sans";
+  width: fit-content;
+  text-shadow: 0.25px 0.25px hsl(192, 100%, 9%);
+  color: hsl(192, 100%, 9%);
+}
+.your-users-section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 695px;
+  position: relative;
+  top: 1200px;
+}
+.your-users-section .top-section {
+  height: 156px;
+  background-image: url("images/bg-section-top-desktop-2.svg");
+}
+.your-users-section .middle-section {
+  height: 400px;
+  position: relative;
+  background-color: hsl(207, 100%, 98%);
+}
+.your-users-section .middle-section .left-div {
+  height: inherit;
+  width: 50%;
+  position: absolute;
+  padding-top: 90px;
+  padding-left: 100px;
+}
+.your-users-section .middle-section .left-div h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Poppins-Bold";
+  width: fit-content;
+  text-transform: capitalize;
+  text-shadow: 0.25px 0.25px hsl(192, 100%, 9%);
+  color: hsl(192, 100%, 9%);
+}
+.your-users-section .middle-section .left-div p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Open_Sans";
+  width: fit-content;
+  letter-spacing: -0.5px;
+  text-shadow: 0.25px 0.25px hsl(192, 100%, 9%);
+  color: hsl(192, 100%, 9%);
+}
+.your-users-section .middle-section .right-div {
+  height: inherit;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  padding-left: 55px;
+}
+.your-users-section .bottom-section {
+  height: 139px;
+  background-image: url("images/bg-section-bottom-desktop-2.svg");
+}
+.ready-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 250px;
+  position: relative;
+  top: 1400px;
+  text-align: center;
+}
+.ready-div h1 {
+  font-weight: 700;
+  font-size: 37px;
+  font-family: "Poppins-Bold";
+  color: hsl(192, 100%, 9%);
+  text-transform: capitalize;
+  text-shadow: 0.25px 0.25px hsl(192, 100%, 9%);
+  margin: 40px auto;
+}
+.ready-div .get-started-free-btn2 {
+  width: 400px;
+  height: 80px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "OpenSans-Bold";
+  text-transform: capitalize;
+  border-color: transparent;
+  border-radius: 40px;
+  background-color: hsl(322, 100%, 66%);
+  color: hsl(207, 100%, 98%);
+}
+.ready-div .get-started-free-btn2:hover {
+  cursor: pointer;
+  background: radial-gradient(hsl(322, 100%, 66%), hsl(321, 100%, 78%));
+}
+.footer-section {
+  width: 100%;
+  height: 748px;
+  position: relative;
+  top: 1657px;
+}
+.footer-section .top-section {
+  height: 158px;
+  width: 100%;
+  background-image: url("images/bg-footer-top-desktop.svg");
+}
+.footer-section .bottom-section {
+  height: 590px;
+  width: 100%;
+  position: relative;
+  background-color: hsl(192, 100%, 9%);
+}
+.footer-section .bottom-section .left-div {
+  height: inherit;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  padding-top: 150px;
+  padding-left: 100px;
+}
+.footer-section .bottom-section .left-div .logo-div {
+  display: block;
+  width: fit-content;
+  height: 50px;
+}
+.footer-section .bottom-section .left-div .logo-div img,
+.footer-section .bottom-section .left-div .logo-div h1 {
+  float: left;
+}
+.footer-section .bottom-section .left-div .logo-div img {
+  margin-top: 8px;
+}
+.footer-section .bottom-section .left-div .clear {
+  clear: both;
+}
+.footer-section .bottom-section .left-div .logo-div h1 {
+  height: 0;
+  margin-left: 10px;
+  margin-top: -12px;
+  font-size: 55px;
+  font-weight: 700;
+  font-family: "Poppins-Bold";
+  text-shadow: 0.25px 0.25px white;
+  width: fit-content;
+  text-transform: capitalize;
+  color: hsl(207, 100%, 98%);
+}
+.footer-section .bottom-section .left-div p {
+  display: block;
+  font-size: 15px;
+  width: fit-content;
+  font-family: "Open_Sans";
+  text-shadow: 0.25px 0.25px white;
+  color: hsl(207, 100%, 98%);
+}
+
+.footer-section .bottom-section .left-div .phone-div {
+  margin-top: 30px;
+}
+.footer-section .bottom-section .left-div .phone-div,
+.footer-section .bottom-section .left-div .email-div {
+  display: block;
+  width: fit-content;
+  height: 25px;
+}
+.footer-section .bottom-section .left-div .phone-div img,
+.footer-section .bottom-section .left-div .phone-div p {
+  float: left;
+}
+.footer-section .bottom-section .left-div .email-div img,
+.footer-section .bottom-section .left-div .email-div p {
+  float: left;
+}
+.footer-section .bottom-section .left-div .phone-div p,
+.footer-section .bottom-section .left-div .email-div p {
+  margin: 0;
+  margin-left: 20px;
+  text-shadow: 0.25px 0.25px white;
+  font-family: "Open_Sans";
+}
+.footer-section .bottom-section .left-div .phone-div img,
+.footer-section .bottom-section .left-div .email-div img {
+  margin-top: 3px;
+}
+.footer-section .bottom-section .left-div .social-logo {
+  display: block;
+  height: 40px;
+  width: fit-content;
+  margin-top: 80px;
+  margin-left: -3px;
+}
+.footer-section .bottom-section .left-div .social-logo .facebook-div,
+.footer-section .bottom-section .left-div .social-logo .instagram-div,
+.footer-section .bottom-section .left-div .social-logo .twitter-div {
+  float: left;
+  width: 35px;
+  height: 35px;
+  border-radius: 3px;
+}
+.footer-section .bottom-section .left-div .social-logo .facebook-div,
+.footer-section .bottom-section .left-div .social-logo .instagram-div {
+  margin-right: 20px;
+}
+.footer-section .bottom-section .left-div .social-logo .facebook-div,
+.footer-section .bottom-section .left-div .social-logo .twitter-div {
+  background-color: white;
+}
+.footer-section .bottom-section .left-div .social-logo .instagram-div {
+  border-radius: 10px;
+  background-color: transparent;
+}
+.facebook-logo {
+  margin-top: -5px;
+  margin-left: 15px;
+}
+.instagram-logo {
+  margin-top: -5px;
+  margin-left: 0.8px;
+}
+.twitter-logo {
+  margin-top: 5px;
+  margin-left: 8px;
+}
+.footer-section .bottom-section .left-div .social-logo .facebook-div:hover,
+.footer-section .bottom-section .left-div .social-logo .instagram-div:hover,
+.footer-section .bottom-section .left-div .social-logo .twitter-div:hover {
+  cursor: pointer;
+  background-color: rgb(1, 197, 211);
+}
+.footer-section .bottom-section .right-div {
+  height: inherit;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  padding-top: 150px;
+  padding-left: 85px;
+}
+.footer-section .bottom-section .right-div h3 {
+  height: 0;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Poppins-Medium";
+  width: fit-content;
+  margin-top: 10px;
+  text-transform: uppercase;
+  text-shadow: 0.25px 0.25px white;
+  color: hsl(207, 100%, 98%);
+}
+.footer-section .bottom-section .right-div p {
+  font-size: 15px;
+  font-family: "Open_Sans";
+  width: fit-content;
+  margin-top: 50px;
+  text-shadow: 0.25px 0.25px white;
+  color: hsl(207, 100%, 98%);
+}
+.footer-section .bottom-section .right-div .subscription-input {
+  width: 310px;
+  height: 50px;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: hsl(192, 100%, 9%);
+}
+.footer-section
+  .bottom-section
+  .right-div
+  .subscription-input:invalid:not(:focus):not(:placeholder-shown) {
+  border: 1px solid hsl(0, 100%, 63%);
+}
+.error-message {
+  font-size: 14px;
+  color: hsl(0, 100%, 63%);
+  display: block;
+  visibility: hidden;
+  position: relative;
+  left: -310px;
+  top: 85px;
+}
+.footer-section
+  .bottom-section
+  .right-div
+  .subscription-input:invalid:not(:focus):not(:placeholder-shown)
+  + .error-message {
+  visibility: visible;
+}
+.footer-section .bottom-section .right-div .subscription-input,
+.footer-section .bottom-section .right-div .subscribe-btn {
+  float: left;
+  margin-top: 25px;
+}
+.footer-section .bottom-section .right-div .subscribe-btn {
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Open_Sans";
+  margin-left: 35px;
+  margin-top: 10px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  text-shadow: 0.25px 0.25px white;
+  border-color: hsl(322, 100%, 66%);
+  color: hsl(207, 100%, 98%);
+  background-color: hsl(322, 100%, 66%);
+}
+.footer-section .bottom-section .right-div .subscribe-btn:hover {
+  background: radial-gradient(hsl(322, 100%, 66%), hsl(321, 100%, 78%));
+}
+.footer-section .bottom-section .right-div .subscription-input:hover,
+.footer-section .bottom-section .right-div .subscribe-btn:hover {
+  cursor: pointer;
+}
