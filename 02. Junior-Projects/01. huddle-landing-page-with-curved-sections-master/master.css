@@ -1,0 +1,1243 @@
+@font-face {
+  font-family: "OpenSans-VariableFont";
+  src: url("fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("fonts/Open_Sans/static/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: "Open_Sans";
+  src: url("fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("fonts/Open_Sans/static/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("fonts/Poppins/Poppins-Regular.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+main {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  width: calc(min(80rem, 100%));
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+nav .btn1-div .try-free-btn {
+  font-weight: 400;
+  font-family: "Open_Sans";
+  border: 0.01em solid hsl(300, 100%, 60%);
+  border-radius: 25px;
+  color: hsl(300, 100%, 60%);
+  background: transparent;
+}
+nav .btn1-div .try-free-btn:hover {
+  cursor: pointer;
+  color: hsl(321, 69%, 85%);
+  border-color: hsl(321, 69%, 85%);
+}
+.build-community-div,
+.ready-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.build-community-div h1,
+.ready-div h1 {
+  font-weight: 700;
+  font-family: "Poppins-Bold";
+  color: hsl(192, 100%, 9%);
+  text-transform: capitalize;
+}
+.build-community-div p {
+  font-family: "Poppins-Regular";
+  color: hsl(192, 100%, 9%);
+}
+.build-community-div .get-started-btn1,
+.ready-div .get-started-free-btn2 {
+  font-family: "OpenSans-Bold";
+  text-transform: capitalize;
+  border-color: transparent;
+  border-radius: 40px;
+  color: hsl(207, 100%, 98%);
+  background-color: hsl(322, 100%, 66%);
+}
+.build-community-div .get-started-btn1:hover,
+.ready-div .get-started-free-btn2:hover {
+  cursor: pointer;
+  background: radial-gradient(hsl(322, 100%, 66%), hsl(321, 100%, 78%));
+}
+.screen-mockups-div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.screen-mockups-div .screen-mockups {
+  width: 100%;
+}
+.community-info-section {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: 400px;
+  align-items: center;
+}
+.community-info-section .communities-div,
+.messages-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.community-info-section .communities-div h1,
+.messages-div h1 {
+  height: 0;
+  color: hsl(192, 100%, 9%);
+  font-family: "OpenSans-VariableFont";
+}
+.community-info-section p {
+  font-weight: 400;
+  text-transform: capitalize;
+  color: rgb(162, 162, 162);
+  font-family: "Poppins-Regular";
+}
+.grow-together-section,
+.flowing-conversations-section,
+.your-users-section,
+.footer-section {
+  display: flex;
+  margin: auto;
+  width: 100%;
+}
+.grow-together-section .middle-section,
+.your-users-section .middle-section {
+  display: flex;
+  background-color: hsl(207, 100%, 98%);
+}
+.grow-together-section .middle-section h1,
+.flowing-conversations-section .right-div h1,
+.your-users-section .middle-section h1 {
+  font-weight: 700;
+  font-family: "Poppins-Bold";
+  text-transform: capitalize;
+  color: hsl(192, 100%, 9%);
+}
+.grow-together-section .middle-section p,
+.flowing-conversations-section .right-div p,
+.your-users-section .middle-section p {
+  font-weight: 400;
+  font-family: "Poppins-Regular";
+  color: hsl(192, 100%, 9%);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.footer-section {
+  position: relative;
+}
+.footer-section .bottom-section {
+  display: flex;
+  width: 100%;
+  height: 710px;
+  background-color: hsl(192, 100%, 9%);
+}
+.footer-section .bottom-section .left-div {
+  display: flex;
+  flex-direction: column;
+}
+.footer-section .bottom-section .left-div h3 {
+  font-weight: 600;
+  font-family: "OpenSans-Regular";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: hsl(207, 100%, 98%);
+}
+.footer-section .bottom-section .left-div p {
+  font-weight: 600;
+  font-family: "Open_Sans";
+  margin-top: 5px;
+  color: hsl(207, 100%, 98%);
+}
+.footer-section .bottom-section .left-div .form-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: fit-content;
+  padding: 10px 0;
+  position: relative;
+}
+.footer-section .bottom-section .left-div .form-div .subscription-input {
+  outline: none;
+  padding: 10px;
+  color: hsl(192, 100%, 9%);
+}
+.footer-section
+  .bottom-section
+  .left-div
+  .form-div
+  .subscription-input:invalid:not(:focus):not(:placeholder-shown) {
+  border: 1px solid hsl(0, 100%, 63%);
+}
+.error-message {
+  display: block;
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 85px;
+  color: hsl(0, 100%, 63%);
+}
+.footer-section
+  .bottom-section
+  .left-div
+  .form-div
+  .subscription-input:invalid:not(:focus):not(:placeholder-shown)
+  + .error-message {
+  visibility: visible;
+}
+.footer-section .bottom-section .left-div .form-div .subscribe-btn {
+  font-weight: 600;
+  font-family: "Open_Sans";
+  text-transform: capitalize;
+  text-shadow: 0.25px 0.25px white;
+  border-color: hsl(322, 100%, 66%);
+  color: hsl(207, 100%, 98%);
+  background-color: hsl(322, 100%, 66%);
+}
+.footer-section .bottom-section .left-div .form-div .subscribe-btn:hover {
+  background: radial-gradient(hsl(322, 100%, 66%), hsl(321, 100%, 78%));
+}
+.footer-section .bottom-section .left-div .form-div .subscription-input:hover,
+.footer-section .bottom-section .left-div .form-div .subscribe-btn:hover {
+  cursor: pointer;
+}
+.footer-section .bottom-section .right-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer-section .bottom-section .right-div .logo-div {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.footer-section .bottom-section .right-div .logo-div .msg-icon {
+  align-self: flex-start;
+  align-self: center;
+}
+.footer-section .bottom-section .right-div .logo-div h1 {
+  align-self: center;
+  margin-left: 10px;
+  font-weight: 700;
+  font-family: "Poppins-Bold";
+  width: fit-content;
+  text-transform: capitalize;
+  color: hsl(207, 100%, 98%);
+}
+.footer-section .bottom-section .right-div p {
+  display: block;
+  font-weight: 600;
+  font-family: "Open_Sans";
+  color: hsl(207, 100%, 98%);
+}
+.footer-section .bottom-section .right-div .phone-div,
+.email-div {
+  width: fit-content;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.footer-section .bottom-section .right-div .phone-div .phone-icon,
+.email-div .email-icon {
+  width: 20px;
+  height: 18px;
+  align-self: center;
+}
+.footer-section .bottom-section .right-div .phone-div p,
+.email-div p {
+  margin-left: 10px;
+  font-weight: 400;
+  font-family: "Poppins-Medium";
+  color: hsl(207, 100%, 98%);
+  align-self: center;
+}
+.footer-section .bottom-section .right-div .social-logo {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.footer-section .bottom-section .right-div .social-logo .facebook-div,
+.instagram-div {
+  margin-right: 20px;
+}
+.footer-section .bottom-section .right-div .social-logo .facebook-div,
+.twitter-div {
+  border-radius: 3px;
+  background-color: hsl(207, 100%, 98%);
+}
+.footer-section .bottom-section .right-div .social-logo .instagram-div {
+  border-radius: 10px;
+  background-color: transparent;
+}
+.footer-section .bottom-section .right-div .social-logo .facebook-logo {
+  float: right;
+  margin-right: 4px;
+}
+.footer-section .bottom-section .right-div .social-logo .instagram-logo {
+  border-radius: 10px;
+}
+.twitter-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.footer-section .bottom-section .right-div .social-logo .facebook-div:hover,
+.footer-section .bottom-section .right-div .social-logo .instagram-div:hover,
+.footer-section .bottom-section .right-div .social-logo .twitter-div:hover {
+  cursor: pointer;
+  background-color: rgb(1, 197, 211);
+}
+/* ================================================================================================================================ */
+/* Common Properties */
+/* Mobile Small & Medium */
+@media (max-width: 424px) {
+  .grow-together-section .middle-section,
+  .flowing-conversations-section {
+    height: 550px;
+  }
+  .your-users-section .middle-section {
+    height: 530px;
+  }
+  .grow-together-section .middle-section .left-div,
+  .flowing-conversations-section .left-div {
+    height: 350px;
+  }
+  .grow-together-section .middle-section .right-div,
+  .flowing-conversations-section .right-div {
+    height: 200px;
+  }
+  .your-users-section .middle-section .right-div {
+    height: 200px;
+  }
+  .your-users-section .middle-section .left-div {
+    height: 330px;
+  }
+}
+/* ================================================================================================================================ */
+/* Common Properties */
+/* Mobile Small & Medium & Large */
+@media (max-width: 767px) {
+  nav {
+    padding-top: 25px;
+  }
+  nav .logo-div {
+    padding-left: 30px;
+  }
+  nav .btn1-div {
+    padding-right: 30px;
+  }
+  nav .logo-div,
+  nav .btn1-div {
+    height: 24px;
+  }
+  nav .btn1-div .try-free-btn {
+    width: 78px;
+    height: 24px;
+  }
+  .build-community-div,
+  .ready-div {
+    padding: 0 30px;
+  }
+  .screen-mockups-div {
+    padding: 0 30px;
+  }
+  .community-info-section {
+    padding: 0 30px;
+    flex-direction: column;
+  }
+  .community-info-section .communities-div,
+  .community-info-section .messages-div {
+    height: 50%;
+    width: 200px;
+    flex-direction: column;
+  }
+  .community-info-section .communities-div h1,
+  .community-info-section .messages-div h1 {
+    margin-top: 5px;
+  }
+  .community-info-section .messages-div p {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: -12px;
+  }
+  .community-info-section .communities-div img,
+  .messages-div img {
+    align-self: flex-start;
+    margin-left: 30px;
+  }
+  .communities-div img {
+    width: 28px;
+    height: 25px;
+  }
+  .messages-div img {
+    width: 20px;
+    height: 18px;
+  }
+  .grow-together-section,
+  .flowing-conversations-section,
+  .your-users-section,
+  .footer-section {
+    flex-direction: column;
+  }
+  .grow-together-section .middle-section,
+  .flowing-conversations-section,
+  .your-users-section .middle-section {
+    padding: 0 30px;
+  }
+  .grow-together-section .middle-section,
+  .flowing-conversations-section {
+    flex-direction: column;
+  }
+  .grow-together-section .middle-section .left-div,
+  .right-div,
+  .flowing-conversations-section .left-div,
+  .right-div,
+  .your-users-section .middle-section .left-div,
+  .right-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .grow-together-section .middle-section .left-div,
+  .flowing-conversations-section .left-div {
+    justify-content: center;
+  }
+  .grow-together-section .middle-section .right-div,
+  .flowing-conversations-section .right-div {
+    text-align: center;
+    justify-content: flex-start;
+  }
+  .your-users-section .middle-section .right-div {
+    justify-content: flex-end;
+  }
+  .your-users-section .middle-section .left-div {
+    justify-content: center;
+    text-align: center;
+  }
+  .grow-together-section .middle-section .left-div img,
+  .flowing-conversations-section .left-div img,
+  .your-users-section .middle-section .right-div img {
+    width: 80%;
+    align-self: center;
+  }
+  .grow-together-section .middle-section .right-div p,
+  .flowing-conversations-section .right-div p,
+  .your-users-section .middle-section .left-div p {
+    margin-top: 5px;
+  }
+  .grow-together-section .top-section .section-top-desktop-1-img,
+  .grow-together-section .bottom-section .section-bottom-desktop-1-img,
+  .your-users-section .top-section .section-top-desktop-2-img,
+  .your-users-section .bottom-section .section-bottom-desktop-2-img,
+  .footer-section .top-section .footer-top-desktop-img {
+    display: none;
+  }
+  .grow-together-section .top-section .section-top-mobile-1-img,
+  .grow-together-section .bottom-section .section-bottom-mobile-1-img,
+  .your-users-section .top-section .section-top-mobile-2-img,
+  .your-users-section .bottom-section .section-bottom-mobile-2-img,
+  .footer-section .top-section .footer-top-mobile-img {
+    display: block;
+    width: 100%;
+  }
+  .grow-together-section .top-section .section-top-mobile-1-img,
+  .your-users-section .top-section .section-top-mobile-2-img {
+    margin-bottom: -10px;
+  }
+  .grow-together-section .bottom-section .section-bottom-mobile-1-img,
+  .your-users-section .bottom-section .section-bottom-mobile-2-img {
+    margin-top: -10px;
+  }
+  .footer-section .top-section .footer-top-mobile-img {
+    height: 50px;
+  }
+  .your-users-section .middle-section {
+    flex-direction: column-reverse;
+  }
+  .footer-section .bottom-section {
+    position: absolute;
+    top: 45px;
+    padding: 0 30px;
+    flex-direction: column;
+  }
+  .footer-section .bottom-section .left-div {
+    height: 50%;
+    padding-top: 20px;
+  }
+  .footer-section .bottom-section .left-div .form-div {
+    width: 100%;
+    height: 140px;
+    flex-wrap: wrap;
+  }
+  .footer-section .bottom-section .left-div .form-div .subscription-input,
+  .subscribe-btn {
+    height: 50px;
+    border-radius: 10px;
+  }
+  .footer-section .bottom-section .left-div .form-div .subscription-input {
+    width: 100%;
+  }
+  .footer-section .bottom-section .left-div .form-div .subscribe-btn {
+    width: 50%;
+    margin-left: 50%;
+  }
+  .footer-section .bottom-section .right-div {
+    height: 50%;
+  }
+  .footer-section .bottom-section .right-div .logo-div {
+    height: 55px;
+  }
+  .footer-section .bottom-section .right-div .logo-div .msg-icon {
+    width: 40px;
+    height: 35px;
+  }
+  .footer-section .bottom-section .right-div .social-logo .facebook-div,
+  .instagram-div,
+  .twitter-div {
+    width: 25px;
+    height: 25px;
+  }
+  .footer-section .bottom-section .right-div .social-logo .facebook-logo {
+    width: 11.5px;
+    height: 25px;
+  }
+  .footer-section .bottom-section .right-div .social-logo .instagram-logo {
+    width: 29px;
+    height: 29px;
+    margin-top: -2px;
+    margin-left: -2px;
+  }
+  .footer-section .bottom-section .right-div .social-logo .twitter-logo {
+    width: 16px;
+  }
+  .error-message {
+    top: 70px;
+  }
+}
+/* ================================================================================================================================ */
+/* Mobile Small - 320px */
+@media (max-width: 374px) {
+  * {
+    font-size: 12px;
+  }
+  nav .logo-div .huddle-logo {
+    width: 90px;
+  }
+  nav .btn1-div .try-free-btn {
+    font-size: 9px;
+  }
+  .build-community-div h1,
+  .ready-div h1 {
+    font-size: 20px;
+  }
+  .build-community-div p {
+    margin: 0 -10px;
+  }
+  .grow-together-section .middle-section .right-div p {
+    margin: 0 -10px;
+  }
+  .flowing-conversations-section .right-div p,
+  .your-users-section .middle-section .left-div p {
+    margin: 0 -15px;
+  }
+  .build-community-div .get-started-btn1,
+  .ready-div .get-started-free-btn2 {
+    font-size: 13px;
+    padding: 10px 30px;
+  }
+  .community-info-section .communities-div h1,
+  .community-info-section .messages-div h1 {
+    font-size: 50px;
+  }
+  .grow-together-section .middle-section .right-div h1,
+  .flowing-conversations-section .right-div h1,
+  .your-users-section .middle-section .left-div h1 {
+    font-size: 18px;
+  }
+  .footer-section .bottom-section .left-div h3 {
+    font-size: 16px;
+  }
+  .footer-section .bottom-section .left-div p {
+    margin-right: -10px;
+  }
+  .footer-section .bottom-section .right-div .logo-div h1 {
+    font-size: 35px;
+  }
+  .footer-section .bottom-section .left-div .form-div .subscribe-btn {
+    font-size: 14px;
+  }
+}
+/* ================================================================================================================================ */
+/* Mobile Medium - 375px */
+@media (min-width: 375px) and (max-width: 424px) {
+  * {
+    font-size: 13px;
+  }
+  nav .logo-div .huddle-logo {
+    width: 100px;
+  }
+  nav .btn1-div .try-free-btn {
+    font-size: 10px;
+  }
+  .build-community-div h1,
+  .ready-div h1 {
+    font-size: 25px;
+  }
+  .build-community-div .get-started-btn1,
+  .ready-div .get-started-free-btn2 {
+    font-size: 14px;
+    padding: 10px 40px;
+  }
+  .community-info-section .communities-div h1,
+  .community-info-section .messages-div h1 {
+    font-size: 55px;
+  }
+  .grow-together-section .middle-section .right-div h1,
+  .flowing-conversations-section .right-div h1,
+  .your-users-section .middle-section .left-div h1 {
+    font-size: 20px;
+  }
+  .footer-section .bottom-section .left-div h3 {
+    font-size: 18px;
+  }
+  .footer-section .bottom-section .left-div p {
+    padding-right: 20px;
+  }
+  .footer-section .bottom-section .right-div .logo-div h1 {
+    font-size: 40px;
+  }
+  .footer-section .bottom-section .left-div .form-div .subscribe-btn {
+    font-size: 15px;
+  }
+}
+/* ================================================================================================================================ */
+/* Mobile Large - 425px */
+@media (min-width: 425px) and (max-width: 767px) {
+  * {
+    font-size: 14px;
+  }
+  nav .logo-div .huddle-logo {
+    width: 110px;
+  }
+  nav .btn1-div .try-free-btn {
+    font-size: 11px;
+  }
+  .build-community-div h1,
+  .ready-div h1 {
+    font-size: 30px;
+  }
+  .build-community-div p {
+    padding: 0 15px;
+  }
+  .grow-together-section .middle-section .right-div p {
+    padding: 0 15px;
+  }
+  .flowing-conversations-section .right-div p,
+  .your-users-section .middle-section .left-div p {
+    padding: 0 10px;
+  }
+  .build-community-div .get-started-btn1,
+  .ready-div .get-started-free-btn2 {
+    font-size: 15px;
+    padding: 10px 50px;
+  }
+  .community-info-section .communities-div h1,
+  .community-info-section .messages-div h1 {
+    font-size: 60px;
+  }
+  .grow-together-section .middle-section .right-div h1,
+  .flowing-conversations-section .right-div h1,
+  .your-users-section .middle-section .left-div h1 {
+    font-size: 22px;
+  }
+  .grow-together-section .middle-section,
+  .flowing-conversations-section {
+    height: 700px;
+  }
+  .your-users-section .middle-section {
+    height: 650px;
+  }
+  .grow-together-section .middle-section .left-div,
+  .flowing-conversations-section .left-div {
+    height: 500px;
+  }
+  .grow-together-section .middle-section .right-div,
+  .flowing-conversations-section .right-div {
+    height: 200px;
+  }
+  .your-users-section .middle-section .right-div {
+    height: 350px;
+  }
+  .your-users-section .middle-section .left-div {
+    height: 300px;
+  }
+  .footer-section .bottom-section .left-div h3 {
+    font-size: 20px;
+  }
+  .footer-section .bottom-section .left-div p {
+    padding-right: 45px;
+  }
+  .footer-section .bottom-section .left-div .form-div .subscribe-btn {
+    font-size: 16px;
+  }
+  .footer-section .bottom-section .right-div .logo-div h1 {
+    font-size: 45px;
+  }
+  .footer-section .bottom-section .right-div p {
+    padding-right: 25px;
+  }
+}
+/* ================================================================================================================================ */
+/* Common Properties */
+/* Tablet & Laptop */
+@media (min-width: 768px) {
+  nav .btn1-div .try-free-btn {
+    padding: 10px 35px;
+  }
+  .build-community-div,
+  .ready-div {
+    margin-top: 80px;
+  }
+  .community-info-section {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .community-info-section .communities-div,
+  .messages-div {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .community-info-section div p {
+    padding-top: 25px;
+  }
+  .community-info-section div img {
+    align-self: center;
+    margin-bottom: -80px;
+  }
+  .grow-together-section,
+  .flowing-conversations-section,
+  .your-users-section {
+    margin-top: 80px;
+  }
+  .grow-together-section .top-section .section-top-mobile-1-img,
+  .grow-together-section .bottom-section .section-bottom-mobile-1-img,
+  .your-users-section .top-section .section-top-mobile-2-img,
+  .your-users-section .bottom-section .section-bottom-mobile-2-img,
+  .footer-section .top-section .footer-top-mobile-img {
+    display: none;
+  }
+  .grow-together-section .top-section .section-top-desktop-1-img,
+  .grow-together-section .bottom-section .section-bottom-desktop-1-img,
+  .your-users-section .top-section .section-top-desktop-2-img,
+  .your-users-section .bottom-section .section-bottom-desktop-2-img,
+  .footer-section .top-section .footer-top-desktop-img {
+    display: block;
+    width: 100%;
+  }
+  .grow-together-section,
+  .your-users-section {
+    flex-direction: column;
+  }
+  .grow-together-section .middle-section {
+    width: 100%;
+    flex-direction: row-reverse;
+  }
+  .flowing-conversations-section,
+  .your-users-section .middle-section {
+    width: 100%;
+    flex-direction: row;
+  }
+  .grow-together-section .middle-section,
+  .your-users-section .middle-section {
+    height: 500px;
+  }
+  .grow-together-section .middle-section div,
+  .flowing-conversations-section div,
+  .your-users-section .middle-section div {
+    width: 100%;
+  }
+  .grow-together-section .middle-section .right-div,
+  .flowing-conversations-section .right-div,
+  .your-users-section .middle-section .left-div {
+    flex-direction: column;
+    align-self: center;
+    height: fit-content;
+  }
+  .grow-together-section .middle-section .left-div,
+  .flowing-conversations-section .left-div,
+  .your-users-section .middle-section .right-div {
+    height: fit-content;
+    align-self: center;
+  }
+  .grow-together-section .middle-section .left-div img,
+  .flowing-conversations-section .left-div img,
+  .your-users-section .middle-section .right-div img {
+    width: 100%;
+  }
+  .footer-section {
+    flex-direction: column;
+  }
+  .footer-section .bottom-section {
+    flex-direction: row-reverse;
+  }
+  .footer-section .bottom-section .left-div,
+  .right-div {
+    width: 100%;
+  }
+  .footer-section .bottom-section .right-div .logo-div {
+    margin-bottom: -30px;
+  }
+  .footer-section .bottom-section .right-div p {
+    padding-right: 260px;
+  }
+  .footer-section .bottom-section .right-div .social-logo {
+    margin-top: 20px;
+  }
+  .footer-section .bottom-section .right-div .social-logo .facebook-div,
+  .instagram-div,
+  .twitter-div {
+    width: 33px;
+    height: 33px;
+  }
+  .footer-section .bottom-section .right-div .social-logo .instagram-div {
+    margin-top: -2px;
+  }
+  .footer-section .bottom-section .right-div .social-logo .facebook-div svg {
+    width: 15px;
+    height: 40px;
+    margin-top: -5px;
+  }
+  .footer-section .bottom-section .right-div .social-logo .twitter-div svg {
+    width: 21px;
+    margin-top: -5px;
+  }
+  .footer-section .bottom-section .left-div .form-div {
+    width: fit-content;
+    flex-wrap: nowrap;
+  }
+}
+/* ================================================================================================================================ */
+/* Common Properties - Laptop*/
+@media (min-width: 1024px) {
+  nav {
+    padding-top: 80px;
+  }
+  nav .logo-div {
+    padding-left: 80px;
+  }
+  nav .btn1-div {
+    padding-right: 80px;
+  }
+  .build-community-div,
+  .ready-div {
+    padding: 0 80px;
+  }
+  .build-community-div .get-started-btn1,
+  .ready-div .get-started-free-btn2 {
+    padding: 25px 100px;
+  }
+  .screen-mockups-div {
+    padding: 0 80px;
+  }
+  .screen-mockups-div .screen-mockups {
+    width: 80%;
+  }
+  .community-info-section {
+    padding: 0 80px;
+  }
+  .grow-together-section .middle-section .right-div,
+  .flowing-conversations-section .right-div,
+  .your-users-section .middle-section .left-div {
+    padding-left: 110px;
+    padding-right: 60px;
+  }
+  .grow-together-section .middle-section .left-div img,
+  .your-users-section .middle-section .right-div img {
+    padding-right: 110px;
+  }
+  .flowing-conversations-section .left-div img {
+    padding-left: 110px;
+  }
+  .footer-section .bottom-section {
+    padding: 100px 120px;
+  }
+  .footer-section .bottom-section .left-div .form-div .subscription-input,
+  .subscribe-btn {
+    height: 50px;
+    border-radius: 8px;
+  }
+  .error-message {
+    top: 70px;
+  }
+}
+/* ================================================================================================================================ */
+/* Tablet - 768px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  * {
+    font-size: 16px;
+  }
+  nav {
+    padding-top: 50px;
+  }
+  nav .logo-div {
+    padding-left: 50px;
+  }
+  nav .btn1-div {
+    padding-right: 50px;
+  }
+  nav .logo-div .huddle-logo {
+    width: 170px;
+  }
+  nav .btn1-div .try-free-btn {
+    font-size: 13px;
+  }
+  .build-community-div,
+  .ready-div {
+    padding: 0 50px;
+  }
+  .build-community-div h1,
+  .ready-div h1 {
+    font-size: 30px;
+  }
+  .build-community-div p {
+    padding: 0 60px;
+  }
+  .build-community-div .get-started-btn1,
+  .ready-div .get-started-free-btn2 {
+    font-size: 16px;
+    padding: 20px 90px;
+  }
+  .screen-mockups-div {
+    padding: 0 50px;
+  }
+  .screen-mockups-div .screen-mockups {
+    width: 90%;
+  }
+  .community-info-section {
+    padding: 0 50px;
+  }
+  .community-info-section div h1 {
+    font-size: 60px;
+  }
+  .community-info-section div p {
+    font-size: 15px;
+  }
+  .community-info-section div img {
+    margin-left: 20px;
+    margin-bottom: -50px;
+  }
+  .community-info-section .communities-div img {
+    margin-left: -120px;
+    width: 11%;
+  }
+  .community-info-section .messages-div img {
+    margin-left: -130px;
+    width: 9%;
+  }
+  .grow-together-section .middle-section .right-div,
+  .flowing-conversations-section .right-div,
+  .your-users-section .middle-section .left-div {
+    padding: 0 50px;
+  }
+  .grow-together-section .middle-section .left-div img,
+  .your-users-section .middle-section .right-div img {
+    padding-right: 50px;
+  }
+  .flowing-conversations-section .left-div img {
+    padding-left: 50px;
+  }
+  .grow-together-section .middle-section .right-div h1,
+  .flowing-conversations-section .right-div h1,
+  .your-users-section .middle-section .left-div h1 {
+    font-size: 25px;
+  }
+  .grow-together-section .middle-section .right-div p,
+  .flowing-conversations-section .right-div p,
+  .your-users-section .middle-section .left-div p {
+    font-size: 15px;
+  }
+  .footer-section .bottom-section .right-div .logo-div h1 {
+    font-size: 30px;
+  }
+  .footer-section .bottom-section p {
+    font-size: 12px;
+  }
+  .footer-section .bottom-section .right-div .phone-div p,
+  .footer-section .bottom-section .right-div .email-div p {
+    font-size: 14px;
+  }
+  .footer-section .bottom-section {
+    height: 500px;
+    padding: 100px 50px;
+  }
+  .footer-section .bottom-section .right-div p {
+    padding-top: 1px;
+    padding-right: 40px;
+  }
+  .footer-section .bottom-section .right-div .social-logo .facebook-div,
+  .instagram-div,
+  .twitter-div {
+    width: 25px;
+    height: 25px;
+  }
+  .footer-section .bottom-section .right-div .social-logo .facebook-div svg {
+    width: 13px;
+    height: 35px;
+    margin-top: -5px;
+  }
+  .footer-section .bottom-section .right-div .social-logo .twitter-div svg {
+    width: 16px;
+    margin-top: -5px;
+  }
+  .footer-section .bottom-section .left-div h3 {
+    font-size: 15px;
+    padding-top: 23px;
+  }
+  .footer-section .bottom-section .left-div p {
+    padding-right: 40px;
+  }
+  .footer-section .bottom-section .left-div .form-div {
+    padding-top: 30px;
+  }
+  .footer-section .bottom-section .left-div .form-div .subscription-input,
+  .subscribe-btn {
+    height: 45px;
+    border-radius: 8px;
+  }
+  .footer-section .bottom-section .left-div .form-div .subscription-input {
+    width: 250px;
+    margin-right: 30px;
+    font-size: 12px;
+  }
+  .footer-section .bottom-section .left-div .form-div .subscribe-btn {
+    width: 125px;
+    font-size: 14px;
+  }
+  .error-message {
+    font-size: 12px;
+  }
+}
+/* ================================================================================================================================ */
+/* Laptop - 1024px */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  * {
+    font-size: 17px;
+  }
+  nav .logo-div .huddle-logo {
+    width: 200px;
+  }
+  nav .btn1-div .try-free-btn {
+    font-size: 14px;
+  }
+  .build-community-div h1 {
+    font-size: 45px;
+  }
+  .build-community-div p {
+    padding: 0 310px;
+  }
+  .ready-div h1 {
+    font-size: 35px;
+  }
+  .build-community-div .get-started-btn1,
+  .ready-div .get-started-free-btn2 {
+    font-size: 18px;
+  }
+  .community-info-section div h1 {
+    font-size: 90px;
+  }
+  .community-info-section div p {
+    font-size: 22px;
+  }
+  .community-info-section div img {
+    margin-left: 20px;
+  }
+  .community-info-section .communities-div img {
+    margin-left: -180px;
+  }
+  .community-info-section .messages-div img {
+    margin-left: -230px;
+    width: 6%;
+  }
+  .grow-together-section .middle-section .right-div h1,
+  .flowing-conversations-section .right-div h1,
+  .your-users-section .middle-section .left-div h1 {
+    font-size: 35px;
+  }
+  .grow-together-section .middle-section .right-div p,
+  .flowing-conversations-section .right-div p,
+  .your-users-section .middle-section .left-div p {
+    font-size: 16px;
+  }
+  .footer-section .bottom-section {
+    height: 600px;
+  }
+  .footer-section .bottom-section .right-div .logo-div h1 {
+    font-size: 40px;
+  }
+  .footer-section .bottom-section p {
+    font-size: 13px;
+  }
+  .footer-section .bottom-section .right-div .phone-div p,
+  .footer-section .bottom-section .right-div .email-div p {
+    font-size: 15px;
+  }
+  .footer-section .bottom-section .left-div h3 {
+    font-size: 20px;
+    padding-top: 32px;
+  }
+  .footer-section .bottom-section .left-div p {
+    padding-top: 5px;
+    padding-right: 240px;
+  }
+  .footer-section .bottom-section .left-div .form-div .subscription-input {
+    width: 300px;
+    margin-right: 40px;
+    font-size: 13px;
+  }
+  .footer-section .bottom-section .left-div .form-div .subscribe-btn {
+    width: 150px;
+    font-size: 15px;
+  }
+  .error-message {
+    font-size: 13px;
+    top: 70px;
+  }
+}
+/* ================================================================================================================================ */
+/* Laptop Large - 1440px */
+@media (min-width: 1440px) {
+  * {
+    font-size: 18px;
+  }
+  nav .logo-div .huddle-logo {
+    width: 230px;
+  }
+  nav .btn1-div .try-free-btn {
+    font-size: 15px;
+  }
+  .build-community-div h1 {
+    font-size: 50px;
+  }
+  .build-community-div p {
+    padding: 0 340px;
+  }
+  .ready-div h1 {
+    font-size: 40px;
+  }
+  .build-community-div .get-started-btn1,
+  .ready-div .get-started-free-btn2 {
+    font-size: 20px;
+  }
+  .community-info-section div h1 {
+    font-size: 100px;
+  }
+  .community-info-section div p {
+    font-size: 24px;
+  }
+  .community-info-section .communities-div img {
+    margin-left: -200px;
+  }
+  .community-info-section .messages-div img {
+    margin-left: -250px;
+    width: 6%;
+  }
+  .grow-together-section .middle-section .right-div h1,
+  .flowing-conversations-section .right-div h1,
+  .your-users-section .middle-section .left-div h1 {
+    font-size: 40px;
+  }
+  .grow-together-section .middle-section .right-div p,
+  .flowing-conversations-section .right-div p,
+  .your-users-section .middle-section .left-div p {
+    font-size: 17px;
+  }
+  .footer-section .bottom-section {
+    height: 600px;
+    margin-top: -10px;
+  }
+  .footer-section .bottom-section .right-div .logo-div h1 {
+    font-size: 50px;
+  }
+  .footer-section .bottom-section p {
+    font-size: 14px;
+  }
+  .footer-section .bottom-section .right-div .phone-div p,
+  .footer-section .bottom-section .right-div .email-div p {
+    font-size: 16px;
+  }
+  .footer-section .bottom-section .left-div h3 {
+    font-size: 25px;
+    padding-top: 35px;
+  }
+  .footer-section .bottom-section .left-div p {
+    padding-top: 18px;
+    padding-right: 250px;
+  }
+  .footer-section .bottom-section .left-div .form-div .subscription-input {
+    width: 330px;
+    margin-right: 40px;
+    font-size: 14px;
+  }
+  .footer-section .bottom-section .left-div .form-div .subscribe-btn {
+    width: 165px;
+    font-size: 16px;
+  }
+  .error-message {
+    font-size: 14px;
+  }
+}
+/* ================================================================================================================================ */
