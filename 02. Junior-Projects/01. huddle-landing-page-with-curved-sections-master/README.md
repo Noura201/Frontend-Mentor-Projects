@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Frontend Mentor Solution URL: (https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-masterchallenge-PPjspkn-qJ)
+- Frontend Mentor Solution URL: (https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-master-solution-DUocxPPoZ8)
 - Live Site URL: (https://noura201.github.io/Frontend_Mentor_03_huddle-landing-page-with-curved-sections-master_challenge/)
 - MyPersonal Linkedin URL: (https://www.linkedin.com/in/noura-mamdouh-8a81982a4/)
 
